@@ -1,44 +1,9 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/*---------------------------------------*/
 body {
-  background-color: beige;;
+  background-color:darkolivegreen;
+  color: white;
 }
 
 /*.header {
@@ -56,44 +21,54 @@ body {
   height: auto;
 }*/
 
+.header {
+  position: fixed;
+  background-color: rgba(255,255,255,0.2);
+  padding: 20px;
+  height: 10px;
+  width:100%;
+  backdrop-filter: blur(10px);
+  top:0;
+  z-index: 1;
+}
+
 .landing-page {
   height: 400px;
-  width: 800px auto;
-}
-
-.landing-page h3 {
-  position: relative;
-  color: cyan;
-  top: 20vh;
-}
-
-.landing-page-background img {
   width: 100%;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  top: 0;
+  position: relative;
 }
 
-.header {
+.landing-page-text {
+  position: absolute;
+  color: cyan;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.landing-page img {
+  height: 400px;
+  width: 100%;
+  
+}
+
+/*.header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  position: relative;
+}*/
 
 .nav {
-  position:fixed;
   color: black;
-  z-index: 1;
-  background-color: beige;
+  background-color: pink;
   width: 200px;
-  top: 100px;
+  position:sticky;
+  top: 10px;
+  left: 50%;
+  translate: -50% 0% ;
+  z-index: 100;
   border-radius: 15px;
-}
-
-.nav.sticky {
-  position: sticky;
-  top: 0;
 }
 
 .nav a:hover {
@@ -103,6 +78,9 @@ body {
 .projects h2 {
   text-align: left;
   margin-left: 10px;
+  position: sticky;
+  top:0;
+  z-index: 2;
 }
 
 .project-sections {
@@ -127,11 +105,18 @@ body {
 .skills h2 {
   text-align: left;
   margin-left: 10px;
+  position: sticky;
+  top:0;
+  z-index: 2;
+
 }
 
 .skill-names {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:2%;
+  margin: 0 10px ;
+  width:99%;
 }
 
 .tools-used {

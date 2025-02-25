@@ -9,19 +9,18 @@ import { LandingPage } from "./components/LandingPage";
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <nav className="nav">
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </nav>
-      </div>
+      <nav className="nav">
+        <Link to="skills" smooth={true} duration={500}>
+          Skills
+        </Link>
+        <Link to="projects" smooth={true} duration={500}>
+          Projects
+        </Link>
+        <Link to="contact" smooth={true} duration={500}>
+          Contact
+        </Link>
+      </nav>
+      <div className="header"></div>
       <LandingPage />
       <Skills id="skills" />
       <Projects id="projects" />
