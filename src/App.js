@@ -5,12 +5,13 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { LandingPage } from "./components/LandingPage";
+import { Slider } from "./components/Slider";
 
 function App() {
   return (
     <div className="App">
       {/*<nav className="nav"></nav>*/}
-      <div className="header">
+      {/*<div className="header">
         <Link to="skills" smooth={true} duration={500}>
           Skills
         </Link>
@@ -20,7 +21,8 @@ function App() {
         <Link to="contact" smooth={true} duration={500}>
           Contact
         </Link>
-      </div>
+      </div>*/}
+      <Slider />
       <LandingPage />
       <Skills id="skills" />
       <Projects id="projects" />
