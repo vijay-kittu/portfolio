@@ -9,7 +9,8 @@ import { LandingPage } from "./components/LandingPage";
 function App() {
   return (
     <div className="App">
-      <nav className="nav">
+      {/*<nav className="nav"></nav>*/}
+      <div className="header">
         <Link to="skills" smooth={true} duration={500}>
           Skills
         </Link>
@@ -19,8 +20,7 @@ function App() {
         <Link to="contact" smooth={true} duration={500}>
           Contact
         </Link>
-      </nav>
-      <div className="header"></div>
+      </div>
       <LandingPage />
       <Skills id="skills" />
       <Projects id="projects" />
