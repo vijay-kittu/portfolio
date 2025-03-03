@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 
 export const Slider = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="slider">
       <button className="hamburger-btn" onClick={() => setIsOpen(true)}>
@@ -42,6 +43,7 @@ export const Slider = () => {
             Contact
           </Link>
         </nav>
+        <img src="resume/210040087_resume-final-final_page-0001.jpg" />
       </div>
 
       {/*<Link to="skills" smooth={true} duration={500}>

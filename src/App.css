@@ -40,6 +40,8 @@ body {
   text-align: right;
 }
 
+
+
 .header a {
   margin-right: 30px;
 
@@ -157,11 +159,20 @@ body {
   width:99% auto;
 }
 
-.slider
-
-.slider a {
-  height: 50px;
+.slider nav a {
+  height:60px;
   width:100%;
+  font-size:x-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  background-color: #ccc;
+}
+
+.slider nav a:first-of-type {
+  margin-top: 0px;
 }
 
 .tools-used {
@@ -247,7 +258,12 @@ body {
 }
 
 .sidebar a:hover {
-  color: #ccc;
+  color: purple;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
 }
 
 /* Page Sections */

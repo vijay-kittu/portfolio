@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       {/*<nav className="nav"></nav>*/}
-      {/*<div className="header">
-        <Link to="skills" smooth={true} duration={500}>
+      <div className="header">
+        {/*<Link to="skills" smooth={true} duration={500}>
           Skills
         </Link>
         <Link to="projects" smooth={true} duration={500}>
@@ -20,8 +20,8 @@ function App() {
         </Link>
         <Link to="contact" smooth={true} duration={500}>
           Contact
-        </Link>
-      </div>*/}
+        </Link>*/}
+      </div>
       <Slider />
       <LandingPage />
       <Skills id="skills" />
