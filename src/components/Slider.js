@@ -9,7 +9,7 @@ export const Slider = () => {
   return (
     <div className="slider">
       <button className="hamburger-btn" onClick={() => setIsOpen(true)}>
-        <Menu size={30} />
+        <Menu size={20} />
       </button>
 
       <div className={`sidebar ${isOpen ? "open" : ""}`}>

@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 .App {
   text-align: center;
+  position: relative;
 }
+
 body {
   /*background-color:darkolivegreen;*/
   color: white;
@@ -10,22 +15,8 @@ body {
   background: linear-gradient(to bottom, black, #2d0b45);
    /* Ensure it covers the full viewport */
   margin: 0;
+  font-family: Arial, sans-serif;
 }
-
-/*.header {
-  position: fixed;
-  top:0; /* Light background with 20% opacity
-  backdrop-filter: blur(10px); /* Blurs background behind the div 
-  width: 100%;
-  display: flex;
-  color: black;
-  
-}
-
-.image {
-  width: 100% ;
-  height: auto;
-}*/
 
 .header {
   position: fixed;
@@ -40,36 +31,29 @@ body {
   text-align: right;
 }
 
-
-
-.header a {
-  margin-right: 30px;
-
-}
-
 .landing-page {
-  height: 400px;
+  height: 600px;
   width: 100%;
   position: relative;
-  top: 50px;
 }
-
-/*.landing-page h2 {
-  position: absolute;
-  text-align: left;
-  margin-left: 10px;
-  position: sticky;
-  top: 10px;
-  z-index: 2;
-}
-  */
 
 .landing-page-text {
-  position: absolute;
   color: cyan;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
+  font-size: xx-large;
+  font-family: "PlayFair Display";
+  width: auto;
+  translate: 0px 20px;
+  z-index: 2;
+}
+
+.App span {
+  font-family: 'Roboto Slab';
+  position: sticky;
+  top: 10px;
+  z-index: 3;
+  left: 370px;
+  top: 20px;
+  margin-top: -50px;
 }
 
 .landing-page img {
@@ -168,7 +152,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -20px;
-  background-color: #ccc;
+  background-color: grey;
 }
 
 .slider nav a:first-of-type {
@@ -194,9 +178,11 @@ body {
 /* Hamburger Icon */
 .hamburger-btn {
   position: fixed;
+  height: 40px;
+  width: auto;
   top: 10px;
   right: 10px;
-  background-color: #333;
+  background-color: transparent;
   color: white;
   padding: 10px;
   border-radius: 5px;

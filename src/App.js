@@ -10,18 +10,15 @@ import { Slider } from "./components/Slider";
 function App() {
   return (
     <div className="App">
-      {/*<nav className="nav"></nav>*/}
-      <div className="header">
-        {/*<Link to="skills" smooth={true} duration={500}>
-          Skills
-        </Link>
-        <Link to="projects" smooth={true} duration={500}>
-          Projects
-        </Link>
-        <Link to="contact" smooth={true} duration={500}>
-          Contact
-        </Link>*/}
+      <div className="landing-page-text">
+        <p>Hi, I'm ,</p>
       </div>
+      <span>Vijay Krishna</span>
+
+      <div className="landing-page-text">
+        <p>an aspiring Web Developer </p>
+      </div>
+      <div className="header"></div>
       <Slider />
       <LandingPage />
       <Skills id="skills" />
