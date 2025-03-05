@@ -9,9 +9,9 @@ import { Slider } from "./components/Slider";
 function App() {
   return (
     <div className="App">
-      <div className="landing-image">
+      {/*<div className="landing-image">
         <img src="images/trading-image.jpeg" />
-      </div>
+      </div>*/}
       <div className="landing-content-1">
         <p>Hi, I'm</p>
       </div>
