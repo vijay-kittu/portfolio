@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import { Link } from "react-scroll";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
@@ -10,14 +9,18 @@ import { Slider } from "./components/Slider";
 function App() {
   return (
     <div className="App">
-      <div className="landing-page-text">
-        <p>Hi, I'm ,</p>
+      <div className="landing-image">
+        <img src="images/trading-image.jpeg" />
       </div>
-      <span>Vijay Krishna</span>
-
-      <div className="landing-page-text">
+      <div className="landing-content-1">
+        <p>Hi, I'm</p>
+      </div>
+      <div className="name">Vijay Krishna</div>
+      <div className="landing-content-2">
+        <p>,</p>
         <p>an aspiring Web Developer </p>
       </div>
+
       <div className="header"></div>
       <Slider />
       <LandingPage />
