@@ -1,3 +1,3 @@
 export const HireMe = () => {
-  return <div></div>;
+  return <div className="hire-me"></div>;
 };
