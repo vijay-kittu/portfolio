@@ -9,23 +9,19 @@ import { Header } from "./components/Header";
 function App() {
   return (
     <div className="App">
-      {/*<div className="landing-image">
-        <img src="images/trading-image.jpeg" />
-      </div>*/}
+      <div className="name"></div>
       <div className="landing-content">
-        <p>Hi, I'm</p>
-        <p>an aspiring Web Developer </p>
-        {/*<div className="landing-content-1">
-          
-        </div>*/}
+        <p>
+          Hi, I'm <br />
+          <span>Vijaya Krishna</span>
+        </p>
+        <p>
+          A final year student at IIT Bombay. I aim to deepen my understanding
+          in various areas of technology and product development.{" "}
+        </p>
       </div>
 
-      <div className="name">Vijay Krishna</div>
-      {/*<div className="landing-content-2">
-        
-      </div>*/}
       <Header />
-      {/*<Slider />*/}
       <Skills id="skills" />
       <Projects id="projects" />
       <Contact id="contact" />
