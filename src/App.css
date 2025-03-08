@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');.App {
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+.App {
   text-align: center;
   font-family: "DM Serif Text";
   color: #222;
   font-size: xx-large;
-  
 }
 
 body {
@@ -33,6 +33,21 @@ body {
 .contact a {
   text-decoration: none;
   margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+.contacts a:last-of-type {
+  color: black;
+}
+
+.contact h2 {
+  color: #000;
+  width: 100px;
+  text-align: left;
+  position: sticky;
+  top: 5px;
+  z-index: 4;
+  font-family: "DM Serif Text";
 }
 
 .contacts {
@@ -113,6 +128,7 @@ body {
 
 .header a {
   margin: 0 20px;
+  z-index: 3;
 }
 
 .header a:hover {
@@ -121,7 +137,7 @@ body {
 
 .landing-content {
   display: flex;
-  height: 475px;
+  height: 450px;
   margin-top: 75px; 
   background-color: #ff4500;
   width:auto;
@@ -224,6 +240,7 @@ body {
 
 .projects h2 {
   color: #000;
+  width: 100px;
   text-align: left;
   margin-left: 10px;
   position: sticky;
@@ -288,9 +305,16 @@ body {
   font-family: "Quantico";
 }
 
+.resume {
+  height: 50px;
+}
+
 .resume:hover {
   cursor: pointer;
+  translate: 5px -5px;
 }
+
+
 
 .skills {
   background-color: white;
@@ -300,6 +324,7 @@ body {
 .skills h2 {
   text-align: left;
   margin-left: 10px;
+  width: 100px;
   position: sticky;
   top: 5px;
   z-index: 4;
