@@ -15,8 +15,9 @@ function App() {
           <span>Vijaya Krishna</span>
         </p>
         <p>
-          A final year student at IIT Bombay. I aim to deepen my understanding
-          in various areas of technology and product development.{" "}
+          A final year student at IIT Bombay.
+          <br /> I aim to deepen my understanding in various areas of technology
+          and product development.{" "}
         </p>
       </div>
 
