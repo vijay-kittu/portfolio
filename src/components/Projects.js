@@ -34,7 +34,11 @@ export const Projects = () => {
               website. Register now and form new friendships , all while
               enjoying complete anonymity!
             </p>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://hythere.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project
             </a>
           </div>
