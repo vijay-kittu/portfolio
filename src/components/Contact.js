@@ -60,7 +60,7 @@ export const Contact = () => {
           </div>
         </div>
         <a
-          href="resume/210040087_resume-final-final_page-0001.jpg"
+          href="resume/RenderCV_EngineeringResumes_Theme (6).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="resume"
